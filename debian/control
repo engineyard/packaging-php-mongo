@@ -1,0 +1,17 @@
+Source: php-mongo
+Section: web
+Priority: optional
+Maintainer: Engine Yard Packaging <packaging@engineyard.com>
+Build-Depends: debhelper (>= 7), po-debconf, xsltproc , php5-dev  
+Standards-Version: 3.9.1
+
+Package: php5-mongo
+Architecture: any
+Depends: ${shlibs:Depends}, ${php:Depends}, ${misc:Depends}
+Description: mongo module for PHP 5
+ MongoDB database driver
+ .
+ This package provides an interface for communicating with the
+ MongoDB database in PHP.
+
+
