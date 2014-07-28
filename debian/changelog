@@ -1,6 +1,11 @@
+php-mongo (1.5.4-2) unstable; urgency=low
+
+  * Use php5{en,dis}mod for conffile handling
+
+ -- Engine Yard Packaging <packaging@engineyard.com>  Mon, 28 Jul 2014 12:22:04 +0100
+
 php-mongo (1.5.4-1) unstable; urgency=low
 
-  * Initial Release (Closes: #<ITP bug number>).
+  * Initial Release.
 
  -- Engine Yard Packaging <packaging@engineyard.com>  Mon, 21 Jul 2014 15:50:25 +0000
-

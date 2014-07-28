@@ -1,3 +1,2 @@
 version=3
-http://pecl.php.net/package/mongo \
-  /get/mongo-([\d\.]*).tgz  debian  uupdate
+http://pecl.php.net/package/mongo /get/mongo-([\d.]+)\.tgz

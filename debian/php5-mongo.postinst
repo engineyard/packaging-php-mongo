@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -e
+
+if [ "XX" = "X$(command -v php5enmod)X" ] ; then # PHP 5.3 style
+    mkdir -p /etc/php5/conf.d
+    cp debian/mongo.ini /etc/php5/conf.d/mongo.ini
+else
+    mkdir -p /etc/php5/mods-available
+    cp debian/mongo.ini /etc/php5/mods-available
+    dpkg-maintscript-helper mv_conffile /etc/php5/conf.d/mongo.ini \
+        /etc/php5/mods-available/mongo.ini 1.5.4-2 -- "$@"
+    rm -f /etc/php5/conf.d/mongo.ini
+
+    [ "$1" = "configure" ] && php5enmod mongo
+fi
+
+#DEBHELPER#
+
+exit 0

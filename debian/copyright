@@ -1,4 +1,4 @@
-This package was debianized by Engine Yard Packaging <packaging@engineyard.com> using dh-make-pecl
+This package was debianized by Engine Yard Packaging <packaging@engineyard.com>
 on Mon, 21 Jul 2014 15:50:25 +0000.
 
 It was downloaded from http://pecl.php.net/package/mongo
@@ -17,4 +17,3 @@ License:
 
 The Debian packaging is copyright 2009, Engine Yard Packaging <packaging@engineyard.com> and
 is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
-
