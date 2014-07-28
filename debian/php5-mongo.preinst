@@ -10,7 +10,7 @@ case "$1" in
           sed s/^\;extension/extension/ -i /etc/php5/conf.d/mongo.ini
         fi
     else
-        if [ -n "$2" ] && dpkg --compare-versions "$2" lt 1.5.4-2
+        if [ -n "$2" ] && dpkg --compare-versions "$2" lt 1.5.4-3
         then
           ucf --purge /etc/php5/conf.d/mongo.ini
         fi
@@ -18,7 +18,7 @@ case "$1" in
         then
           sed s/^\;extension/extension/ -i /etc/php5/conf.d/mongo.ini
           dpkg-maintscript-helper mv_conffile /etc/php5/conf.d/mongo.ini \
-              /etc/php5/mods-available/mongo.ini 1.5.4-2 -- "$@"
+              /etc/php5/mods-available/mongo.ini 1.5.4-3 -- "$@"
           rm -f /etc/php5/conf.d/mongo.ini
         fi
     fi

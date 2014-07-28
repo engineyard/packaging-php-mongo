@@ -1,4 +1,4 @@
-php-mongo (1.5.4-2) unstable; urgency=low
+php-mongo (1.5.4-3) unstable; urgency=low
 
   * Use php5{en,dis}mod for conffile handling
 
