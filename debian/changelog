@@ -1,3 +1,9 @@
+php-mongo (1.5.5-1) unstable; urgency=low
+
+  * Updating from upstream
+
+ -- Engine Yard Packaging <packaging@engineyard.com>  Fri, 1 Aug 2014 13:31:22 +0100
+
 php-mongo (1.5.4-4) unstable; urgency=low
 
   * Use php5{en,dis}mod for conffile handling

@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 PECL_PKG_NAME = mongo
-PECL_PKG_VER  = 1.5.4
+PECL_PKG_VER  = 1.5.5
 BIN_PACKAGE_NAME = php5-mongo
 
 PKGDIR = ${PECL_PKG_NAME}-${PECL_PKG_VER}
