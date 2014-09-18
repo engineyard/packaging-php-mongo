@@ -2,7 +2,7 @@ Source: php-mongo
 Section: web
 Priority: optional
 Maintainer: Engine Yard Packaging <packaging@engineyard.com>
-Build-Depends: debhelper (>= 7), po-debconf, xsltproc , php5-dev,
+Build-Depends: debhelper (>= 7), po-debconf, xsltproc , php5-dev (>= 1:5.4),
          ucf
 Standards-Version: 3.9.1
 
